@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sorter</title>
+    <meta charset="utf-8">
+    <meta name="Description" content="Voyager">
+    <link rel="stylesheet" type="text/css" href="./styles/application.css" media="all">
+    <script type="text/javascript" src="scripts/mini.js"></script>
+    <script type="text/javascript" src="scripts/voyager.data.js"></script>
+    <script type="text/javascript" src="scripts/sort.js"></script>
+    <script type="text/javascript" src="scripts/voyager.init.js"></script>
+</head>
+<body>
+<div id="main">
+    <div class="leftCol">
+        <p class="info">
+            Дефолтно используются захардкоженые данные из файла voyager.data.js.<br>
+            Подробное описание формата входных данных можно найти там же
+        </p>
+        <span></span>
+        <div class="button outStrings">Вывести маршрут</div>
+        <div id='first' class="output"></div>
+    </div>
+    <div class="rightCol">
+        <span>Ввод данных через форму</span>
+        <p class="info">Данное поле принимает json. Формат данных тот же(подробно в voyager.data.js). Пример можно получить щелкнув по кнопке.</p>
+        <p class="info">P. S. Если поле имеет валидный json то данные берутся именно отсюда</p>
+
+        <div class="button submit">Вывести пример</div>
+        <div class="button clear">очистить</div>
+        <div>
+            <textarea id="jsonInput"></textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>
