@@ -88,7 +88,7 @@
                         'to' ,
                         info.to + "."].join(' '),
                     aircraft:[
-                        "Frodm" ,
+                        "From" ,
                         info.from ,
                         (str[info.trans] || info.trans) ,
                         (info.number || '') ,
