@@ -32,7 +32,7 @@
         },
 
         // Sorter with bugs, but may be more interesting (should give a great speed but fails if the
-        // input array flies longer than 7(bad implementation))
+        // input array longer than 7(bad implementation))
         sorterNew:function () {
             var array = this.cards.slice();
             for (var s = 0; s < array.length; s++) {
